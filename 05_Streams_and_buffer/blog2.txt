@@ -1,0 +1,20 @@
+Blog 2: 5 Essential Tips for Writing Clean Code
+Writing clean, maintainable code is a crucial skill for any developer. Whether you’re working on a small project or a large-scale application, following best practices can save time and make your code easier to understand and maintain.
+
+1. Use Meaningful Variable Names
+Choose variable names that clearly describe their purpose. Avoid single-letter names or abbreviations unless they are universally understood. For example, use totalAmount instead of t or amt.
+
+2. Keep Functions Small and Focused
+A function should do one thing and do it well. Break down large functions into smaller, more manageable pieces. This not only makes your code easier to test but also improves readability.
+
+3. Write Comments Sparingly
+While comments can be helpful, they should not be used to explain what the code is doing—good code should be self-explanatory. Use comments to explain why something is done a certain way or to highlight important information.
+
+4. Consistent Formatting
+Consistent code formatting makes your code easier to read and understand. Use a linter or code formatter like Prettier to enforce consistent styles across your project.
+
+5. Avoid Magic Numbers
+Magic numbers are hard-coded values that lack context. Instead of directly using numbers in your code, define them as constants with meaningful names. For example, instead of if (status === 200), use const STATUS_OK = 200; if (status === STATUS_OK).
+
+Conclusion
+By following these tips, you’ll be able to write code that is clean, understandable, and easy to maintain. Remember, clean code not only benefits you but also anyone else who might work on the project in the future.
