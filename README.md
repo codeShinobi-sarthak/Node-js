@@ -47,5 +47,8 @@ This repository also includes a script that organizes files by their extensions 
 - **Checks for Folders**: Creates folders for each file extension if they do not already exist.
 - **Moves Files**: Moves each file into the corresponding folder based on its extension.
 
+## Acknowledgement
+
+This repository includes a handbook (node-handbook.pdf) authored by Flavio Copes. Full credit for the content of the handbook goes to him. The work presented here is a refractor of his original material.
 
 
